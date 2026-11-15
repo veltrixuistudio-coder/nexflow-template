@@ -1,36 +1,60 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# NexFlow — Modern SaaS & AI Workflow Landing Page Template
 
-## Getting Started
+**NexFlow** is a sleek, high-converting SaaS and AI workflow landing page template built with **Next.js** and **Tailwind CSS**. Designed with a modern dark aesthetic, responsive layout, and clean component architecture, it is ready for instant customization and deployment.
 
-First, run the development server:
+🌐 **Live Demo:** [CANLI_DEMO_LINKINI_BURAYA_YAPISTIR]
 
+---
+
+## ✨ Key Features
+
+- **Modern Dark UI:** High-contrast dark theme crafted for SaaS, AI tools, and productivity startups.
+- **100% Responsive:** Fully optimized for desktop, tablet, and mobile screens.
+- **Modular Components:** Clean, reusable sections (Hero, Features, How It Works, Pricing, FAQ, CTA, Footer).
+- **Fast Performance:** Built on Next.js App Router with optimized assets and fast page loads.
+- **Easy to Customize:** Update colors, typography, and copy effortlessly via Tailwind CSS.
+
+---
+
+## 🚀 Getting Started
+
+Follow these steps to run the project locally on your machine:
+
+### 1. Prerequisites
+Make sure you have **Node.js** (v18 or higher) installed on your computer.
+
+### 2. Install Dependencies
+Open your terminal inside the project folder and run:
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+npm install
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### 3. Run the Development Server
+Start the local development server:
+```bash
+npm run dev
+```
+Open [http://localhost:3000](http://localhost:3000) in your browser to view the template.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🛠️ Customization
 
-## Learn More
+- **Text & Content:** Edit the section components inside the `src/` or `app/` directory to update headings, pricing tiers, and FAQs.
+- **Styling & Colors:** Modify `tailwind.config.ts` (or `globals.css`) to match your brand palette.
+- **Images & Icons:** Replace assets inside the `public/` folder.
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 📦 Deployment
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+The easiest way to deploy this template is using **Vercel**:
+1. Push your customized code to a GitHub repository.
+2. Import the repository into [Vercel](https://vercel.com).
+3. Click **Deploy** — Vercel will automatically detect Next.js and publish your site.
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 📄 License
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+This template is licensed for personal and commercial projects. Redistribution or reselling of the raw template files is prohibited.
